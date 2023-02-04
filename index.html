@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="heading">
+        <p>Todo List by Tasfiq Shadman</p>
+        <input
+          placeholder="What's on your mind today ?"
+          type="text"
+          class="task-creator"
+        />
+        <button class="task-btn">Add task</button>
+      </div>
+    </div>
+    <div class="task-container"></div>
+    <template id="task">
+      <div class="task">
+        <button class="edit-png">Edit</button>
+        <input class="user-task" disabled />
+        <button class="delete">Delete</button>
+      </div>
+    </template>
+  </body>
+  <script src="script.js"></script>
+</html>
